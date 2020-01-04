@@ -1,0 +1,294 @@
+html, body,p{
+margin:0px;
+padding:0px;
+width:100%;
+background-color:#FFFFFF;
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px;	
+}
+
+header
+{
+padding:40px 0px;/*Marge verticale*/
+background-color: #FFFFFF; /*Couleur de fond*/
+text-align:center;/*texte centrÃ©e*/
+
+}
+
+#searchbar
+{float:right;padding-right:10px;}
+.champs
+{display:inline-block;}
+.champs .champ       
+{width:250px; height:20px;}
+.champs .bouton       
+{ background-image: url("img/button.jpg");background-repeat: no-repeat; background-size: cover; background-position: center; width: 25px;height: 25px;padding: 0; cursor: pointer; }
+
+#logo
+{
+	background-color:#FFFFFF; /*Couleur de fond*/
+	width: 500px;
+	height: 150px;
+	margin :0 auto 0 auto;
+
+}
+
+
+/* Navigation */
+
+
+
+.element_menu {
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+
+.element_menu ul {
+	padding:0;
+	list-style-type:none;
+	margin-left:auto;
+	margin-right: auto;
+ }
+ 
+.element_menu li {
+    list-style-type: none;
+    display:inline-block;
+}
+ 
+ 
+.element_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+ 
+.element_menu ul li a:hover {
+	background-color:#ffffff;
+	border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+
+
+#texte{
+	padding:0px;/*Marge verticale*/
+	background-color:#FFFFFF; /*Couleur de fond*/
+	text-align:right;/*texte a droite*/
+	font-size: 15px;
+	width: 100%;
+	height: 15%;
+	margin-left:0px;
+	margin-right:0px;
+}
+#texte a {
+	color:#000000;
+	text-decoration:none;
+ } 
+ 
+ 
+
+/*corps*/
+
+#background{
+	
+    background-image: url("img/bandeau_web.jpg");
+    background-size: cover;
+	background-color:#FFFFFF; /*Couleur de fond*/
+	background-repeat: no-repeat;
+    height: 500px;
+	border: 2px solid black;
+}
+
+#haut ul{
+    height: 100%;
+    padding-left: 15%;
+	padding-bottom: 5%;
+	margin:0px;
+}
+
+#haut ul li{
+    width: 30%;
+    height: 100%;
+    padding: 0px;
+	margin: 0px;
+    list-style: none;
+    border-left: 0,5px solid #fff;
+    display: inline-block;  
+}
+
+#haut img
+{
+    background-size: contain;
+    max-height: 300px;
+    max-width: 400px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+#haut ul li a
+{
+	text-decoration:none;
+}
+
+.ecriture 
+{
+    display: inline-block;
+    width: 100%;
+    height: 13px;
+    line-height: 13px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* Pied de page */
+
+.fond{
+	background-color:#DCDCDC; /*Couleur de fond*/
+	}
+
+footer 
+{
+	padding:5%;/*Marge verticale*/
+	margin:0px;
+	background-color:#DCDCDC; /*Couleur de fond*/
+	text-align:center;/*texte centrÃ©e*/
+	/* border: 2px inset gray; */
+}
+
+
+#social img
+{	
+	padding:10px 0px;/*Marge verticale*/
+	background-color:#DCDCDC; /*Couleur de fond*/
+	text-align:center;/*texte centrÃ©e*/
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#contact img
+{	padding:10px 0px;/*Marge verticale*/
+	background-color:#DCDCDC; /*Couleur de fond*/
+	text-align:center;/*texte centrÃ©e*/
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#reseau {
+   overflow:auto;
+}
+
+#social{
+   float:left;
+   width:55%;
+}
+
+#social a{
+	   text-decoration:none;
+}
+
+#contact {
+   overflow:auto;
+}
+
+#contact a {
+	text-decoration:none;
+}
+
+#contenue {
+	text-align: center;
+	width:100%;
+	padding-bottom:5%;
+	border-width:0px;
+}
+
+#border {
+	margin: 0px 450px;
+	padding: 10px 0px;
+	border: 1px inset gray;
+	
+}
+
+.formulaire {
+	padding:0px;/*Marge verticale*/
+	text-align:center;/*texte a droite*/
+	font-size: 18px;
+	width: 20px;
+	height: 20px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.formulaire .champ {
+	height: 10px; /* Hauteur des champs */
+	width: 10px; /* Longueur des champs */
+}
+
+
+.formulaire a {
+	color:#000000;
+	text-decoration:none;
+ } 
+ 
+#products {
+	margin-left:10%;
+	padding-top:5%;
+	padding-bottom:10%;
+	display:flex;
+}
+
+#products img{
+	width:35%;
+	height:35%;
+
+}
+ 
+ 
+#description {
+	float:right;
+	margin-left: 10%
+}
+
+.tva {
+	    color: gray;
+}
+
+.bouton a {
+display:inline-block;
+width:;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background-image: url("img/orange.jpg");
+background-position:center;
+color:white;
+text-decoration:none;
+float:left;
+border: 2px solid #ff8c00;
+}
+
+#taille a {
+display:block;
+width:;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background-position:center;
+color:black;
+text-decoration:none;
+border: 2px solid black;
+float:left;
+}
